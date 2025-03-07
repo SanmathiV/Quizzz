@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>IPL Quiz</h1>
+        <div class="timer">Time Left: <span id="time">10</span>s</div>
+        <div id="question" class="question"></div>
+        <div id="options" class="options"></div>
+        <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next</button>
+        <div class="score">Score: <span id="score">0</span></div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+/* Quiz Container */
+.quiz-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+/* Timer */
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Question */
+#question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Options */
+.option {
+    background: #d3d3d3;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.option:hover {
+    background: #bbb;
+}
+
+.correct {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.wrong {
+    background-color: #dc3545 !important;
+    color: white;
+}
+
+/* Next Button */
+#next-btn {
+    background: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#next-btn:hover {
+    background: #0056b3;
+}
+
+/* Score */
+#score {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
