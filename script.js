@@ -4,7 +4,7 @@ import { getFirestore, collection, getDocs } from "https://www.gstatic.com/fireb
 
 // Firebase configuration (Replace with your credentials)
 const firebaseConfig = {
-    apiKey: "AIzaSyBV9rDEX9k17uzbGpSh11vEF-YF4EVzn6w",
+    apiKey: "API-KEY",
     authDomain: "quiz-app-7046a.firebaseapp.com",
     projectId: "quiz-app-7046a",
     storageBucket: "quiz-app-7046a.appspot.com",
